@@ -1,0 +1,20 @@
+.imageObjectCenter {
+  width: 30%;
+  height: 30%;
+  object-position: center;
+}
+
+.cortification {
+  transform: translate(-25%, 50%);
+  margin-left: 8rem;
+  margin-bottom: -3rem;
+  transition: box-shadow 0.3s ease-in-out, margin-bottom 0.3s ease-in-out;
+}
+.cortification:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: -2.5rem;
+}
+.checking-green {
+  width: 48px;
+  height: 48px;
+}
