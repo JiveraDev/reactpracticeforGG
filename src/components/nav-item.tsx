@@ -23,7 +23,7 @@ let icons = [syringe, category, team, contact];
             console.log("you clicked " + item);
               setSelectedIndex(index); // mark this item as active
             }} key={index}>
-             <a className="nav-link px-3" href="#"><img alt="icons" src={icons[index]} ></img> {item}</a>
+            <a className="nav-link px-3" href={`#${item.toLowerCase()}`}><img alt="icons" src={icons[index]} ></img> {item}</a>
            </li>
         ))}
         

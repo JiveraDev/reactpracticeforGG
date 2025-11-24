@@ -2,7 +2,7 @@ import "./appointment.css";
 
 export function Hero() {
   return (
-    <div className="relative bg-gradient-to-br from-blue-50 to-cyan-50">
+    <div className="relative bg-gradient-to-br from-blue-50 to-cyan-50" id="Hero">
       {/* Navigation */}
       {/* <nav className="container mx-auto px-4 py-6">
         <div className="flex items-center justify-between">
@@ -29,6 +29,27 @@ export function Hero() {
      <div className="container py-5">
   <div className="row align-items-center g-5">
     {/* Left Column */}
+    
+    <div className="col-lg-6 position-relative">
+      <div className="rounded shadow-lg overflow-hidden">
+        <img
+          src="../src/assets/image.png"
+          alt="Veterinary care"
+          className="img-fluid"
+        />
+      </div>
+
+      <div className="position-absolute bottom-0 start-0 translate-middle bg-white p-3 rounded shadow d-flex align-items-center gap-3 cortification" >
+        <div className="bg-success text-white rounded-circle d-flex align-items-center justify-content-center checking-green" >
+          ✓
+        </div>
+        <div>
+          <div className="small text-muted">Certified</div>
+          <div className="text-dark">Licensed Veterinarians</div>
+        </div>
+      </div>
+    </div>
+    {/* Right Column */}
     <div className="col-lg-6">
       <h1 className="display-4 text-primary mb-4">
         Compassionate Care for Your Beloved Pets
@@ -58,26 +79,6 @@ export function Hero() {
       </div>
     </div>
 
-    {/* Right Column */}
-    <div className="col-lg-6 position-relative">
-      <div className="rounded shadow-lg overflow-hidden">
-        <img
-          src="../src/assets/image.png"
-          alt="Veterinary care"
-          className="img-fluid"
-        />
-      </div>
-
-      <div className="position-absolute bottom-0 start-0 translate-middle bg-white p-3 rounded shadow d-flex align-items-center gap-3 cortification" >
-        <div className="bg-success text-white rounded-circle d-flex align-items-center justify-content-center checking-green" >
-          ✓
-        </div>
-        <div>
-          <div className="small text-muted">Certified</div>
-          <div className="text-dark">Licensed Veterinarians</div>
-        </div>
-      </div>
-    </div>
   </div>
 </div>
 

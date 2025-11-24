@@ -33,8 +33,8 @@ function Navbar() {
           <LoginButtons />
         </div>
       </div>
+
     </nav>
-    
   );
 }
 

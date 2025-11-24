@@ -1,0 +1,8 @@
+.serviceList {
+  transition: ease-in-out 0.3s, box-shadow 0.3s ease;
+}
+
+.serviceList:hover {
+  transform: translateY(-4px); /* lifts only the hovered card */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
