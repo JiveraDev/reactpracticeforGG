@@ -18,12 +18,12 @@ const services = [
   {
     icon: "🚑",
     name: "Emergency Care",
-    description: "24/7 emergency services for urgent veterinary needs."
+    description: "Emergency services for urgent veterinary needs."
   },
   {
-    icon: "🦷",
-    name: "Dental Care",
-    description: "Professional dental cleaning and oral health maintenance."
+    icon: "🐕",
+    name: "Pet Boarding",
+    description: "Pet boarding services in a safe and comfortable environment."
   },
   {
     icon: "🏠",
@@ -51,10 +51,13 @@ export function Services() {
                     </div>
                 ))}
 
+             
             </div>
          
             
         </div>
+        
     </section>
+
   );
 }

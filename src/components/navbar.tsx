@@ -2,6 +2,9 @@
 // import { Fragment } from "react";
 import  NavItem from "./nav-item";
 import { LoginButtons } from "./button";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+
+  
 function Navbar() {
   return (
     

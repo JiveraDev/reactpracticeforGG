@@ -41,7 +41,7 @@ export function About() {
           <div className="col-lg-6 order-1 order-lg-2">
             <div className="rounded overflow-hidden shadow-lg">
               <img
-                src="../assets/lobbyImage.png"
+                src="/src/assets/lobbyImage.png"
                 alt="Veterinarian with pet"
                 className="img-fluid w-100"
               />
